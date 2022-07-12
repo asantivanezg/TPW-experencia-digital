@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
+* {
+	--webkit-box-sizing: border-box;
+	--moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/* globales */
+.container{
+	max-width: 1100px;
+	width: 95%;
+	margin: 0 auto;
+}
+.float-left{
+	float: 	left;
+}
+.float-right{
+	float: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-justify{
+	text-align: justify;
+}
+.padding{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.padding-top{
+	padding-top: 70px;
+}
+.padding-bottom{
+	padding-bottom: 70px;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+.sectionhome .cabecera {
+	padding-bottom: 35px;
+}
+.bg-light{
+	background-color: #eafeff;
+}
+.sectionhome .cabecera  h2, .sectionhome .cabecera h1{
+	color: #20b1c7;
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+.sectionhome .cabecera p{
+	font-size: 18px;
+}
+/* grid */
+
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+	overflow: hidden;
+}
+
+.col-12{
+	width: 100%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-11{
+	width: 91.6%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-10{
+	width: 80%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-9{
+	width: 75%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-8{
+	width: 66.7%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-7{
+	width: 58.3%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-6{
+	width: 50%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-5{
+	width: 41.6%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-4{
+	width: 33.3%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-3{
+	width: 25%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-2{
+	width: 16.6%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.col-1{
+	width: 8.3%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.mt10 {
+    margin-top: 10ox;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.mb100 {
+    margin-bottom: 100px;
+}
+
+.image-container {
+ 
+}
+
+.image-resize {
+
+}
+
+.footer-contacto {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
