@@ -238,13 +238,13 @@ background:#ffffff;
 }
 
 .viajeros{
-	background:url(../img/img1.png);
+	background:url(../resource/images/img1.png);
 	
 	width: 100%;
 }
 
 .brouchre{
-	background:url(../img/img1.png);
+	background:url(../resource/images/img1.png);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
