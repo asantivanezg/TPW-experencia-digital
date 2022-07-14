@@ -1,14 +1,10 @@
 <?php
-class Producto {
+class Categoria {
 
     private $pdo;
 
-    public $idProducto;
-    public $descripcion;
-    public $stock;
-    public $nombre;
-    public $precio;
     public $idCategoria;
+    public $descripcion;
 
     public function __construct()
     {
@@ -26,7 +22,7 @@ class Producto {
 		{
 			$result = array();
 
-			$stm = $this->pdo->prepare("SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_categoria c ON p.idCategoria = c.id WHERE activo = 1");
+			$stm = $this->pdo->prepare("SELECT id, descripcion FROM tb_categoria WHERE activo = 1");
 			$stm->execute();
 
 			return $stm->fetchAll(PDO::FETCH_OBJ);
@@ -41,7 +37,7 @@ class Producto {
 	{
 		try
 		{
-			$stm = $this->pdo->prepare("SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_categoria c ON p.idCategoria = c.id WHERE activo = 1 AND p.id = 1");
+			$stm = $this->pdo->prepare("SELECT id, descripcion FROM tb_categoria WHERE activo = 1 AND id = 1");
 			$stm->execute(array($idProducto));
 			return $stm->fetch(PDO::FETCH_OBJ);
 		} catch (Exception $e)
@@ -55,7 +51,7 @@ class Producto {
 		try
 		{
 			$stm = $this->pdo
-			            ->prepare("UPDATE tb_producto SET
+			            ->prepare("UPDATE tb_categoria SET
                         activo = 0                        
                         WHERE id = ?");
 
@@ -70,22 +66,14 @@ class Producto {
 	{
 		try
 		{
-			$sql = "UPDATE tb_producto SET
-						nombre = ?,
+			$sql = "UPDATE tb_categoria SET
 						descripcion = ?,
-                        precio = ?
-                        stock = ?
-                        idCategoria = ?
 				    WHERE id = ?";
 
 			$this->pdo->prepare($sql)
 			     ->execute(
 				    array(
-                        $data->nombre,
                         $data->descripcion,
-                        $data->precio,
-                        $data->stock,
-                        $data->idCategoria
 					)
 				);
 		} catch (Exception $e)
@@ -94,21 +82,17 @@ class Producto {
 		}
 	}
 
-	public function registrar(Producto $data)
+	public function registrar(Categoria $data)
 	{
 		try
 		{
-		$sql = "INSERT INTO tb_producto (nombre,descripcion,precio,stock,idCategoria,activo)
-		        VALUES (?, ?, ?, ?,?, 1)";
+		$sql = "INSERT INTO tb_categoria (descripcion,activo)
+		        VALUES (?, 1)";
 
 		$this->pdo->prepare($sql)
 		     ->execute(
 				array(
-                    $data->nombre,
                     $data->descripcion,
-                    $data->precio,
-                    $data->stock,
-                    $data->idCategoria
                 )
 			);
 		} catch (Exception $e)
