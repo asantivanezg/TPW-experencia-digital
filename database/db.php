@@ -1,7 +1,7 @@
 <?php
 class Database
 {
-    public static function Conectar()
+    public static function conectar()
     {
         $usuario = "root";
         $password = "admin";
