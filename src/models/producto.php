@@ -50,7 +50,7 @@ class Producto {
 		}
 	}
 
-    public function Eliminar($idProducto)
+    public function eliminar($idProducto)
 	{
 		try
 		{
@@ -66,7 +66,7 @@ class Producto {
 		}
 	}
 
-	public function Actualizar($data)
+	public function actualizar($data)
 	{
 		try
 		{
@@ -94,7 +94,7 @@ class Producto {
 		}
 	}
 
-	public function Registrar(producto $data)
+	public function registrar(producto $data)
 	{
 		try
 		{
