@@ -1,3 +1,7 @@
+<?php
+
+
+?>
 <!DOCTYPE html>
 <html lang="es-PE">
 
@@ -27,25 +31,23 @@
 			<div class="float-right">
 				<nav>
 					<ul>
-						<!-- el active esta agregado en el home porque estabamos en el archivo index.html. En el caso que estuvieramos en nosotros.html el active estaria en nosotros -->
 						<li class="active">
-							<a href="index.html">Home</a>
+							<a href="index.php">Inicio</a>
 						</li>
 						<li>
-							<!-- href="#" es enlace pendiente o enlace en borrador -->
-							<a href="nosotros.html">Nosotros</a>
+							<a href="nosotros.php">Nosotros</a>
 						</li>
 						<li>
-							<a href="servicios.html">Servicios</a>
+							<a href="servicios.php">Servicios</a>
 						</li>
 						<li>
-							<a href="equipo.html">Equipo</a>
+							<a href="equipo.php">Equipo</a>
 						</li>
 						<li >
-							<a href="login">Login</a>
+							<a href="/src/views/login/login.php">Login</a>
 						</li>
 						<li >
-							<a href="administrador.html">Intranet</a>
+							<a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
 						</li>
 					</ul>
 				</nav>

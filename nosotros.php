@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="es-PE">
 
@@ -6,11 +9,17 @@
     <title>Experiencia Digital</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style/main.css">
-    <script
-    async>(function (w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/9506909c8e917693935ec38034112426"); h.appendChild(s); })(window, document);</script>
+    <script async>
+        (function(w, d) {
+            var h = d.head || d.getElementsByTagName("head")[0];
+            var s = d.createElement("script");
+            s.setAttribute("type", "text/javascript");
+            s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/9506909c8e917693935ec38034112426");
+            h.appendChild(s);
+        })(window, document);
+    </script>
 
 </head>
 
@@ -29,26 +38,24 @@
             <div class="float-right">
                 <nav>
                     <ul>
-                        <!-- el active esta agregado en el home porque estabamos en el archivo index.html. En el caso que estuvieramos en nosotros.html el active estaria en nosotros -->
                         <li>
-                            <a href="index.html">Inicio</a>
+                            <a href="index.php">Inicio</a>
                         </li>
                         <li class="active">
-                            <!-- href="#" es enlace pendiente o enlace en borrador -->
-                            <a href="nosotros.html">Nosotros</a>
+                            <a href="nosotros.php">Nosotros</a>
                         </li>
                         <li>
-                            <a href="servicios.html">Servicios</a>
+                            <a href="servicios.php">Servicios</a>
                         </li>
                         <li>
-                            <a href="equipo.html">Equipo</a>
+                            <a href="equipo.php">Equipo</a>
                         </li>
-                        <li >
-							<a href="login">Login</a>
-						</li>
-						<li >
-							<a href="administrador.html">Intranet</a>
-						</li>
+                        <li>
+                            <a href="/src/views/login/login.php">Login</a>
+                        </li>
+                        <li>
+                            <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -68,7 +75,7 @@
                     <li><strong>Tipo Empresa:</strong> Sociedad Anonima Cerrada</li> <br>
                     <li><strong>Condición:</strong> Activo</li> <br>
                     <li><strong>Fecha Inicio Actividades:</strong> 16 / Abril / 2022</li> <br>
-                    <li><strong>Actividades Comerciales:</strong> 
+                    <li><strong>Actividades Comerciales:</strong>
                         <ul>
                             <li>Vta. May. de Otros Productos. </li>
                             <li>Desarrollo de software. </li>
@@ -111,35 +118,35 @@
                 <div class="float-right">
                     <ul class="redes-sociales">
                         <li>
-							<a href="https://www.facebook.com/Experiencia-Digital-104907572255725">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://twitter.com/ExperienciaDig5">
-								<i class="fab fa-twitter"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/experiencia-digital-0b0479243/">
-								<i class="fab fa-linkedin-in"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://myaccount.google.com/u/1/">
-								<i class="fab fa-google-plus-g"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.pinterest.com/u19202758/_saved/">
-								<i class="fab fa-pinterest-p"></i>
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/experienciadigital97/">
-								<i class="fab fa-instagram"></i>
-							</a>
-						</li>
+                            <a href="https://www.facebook.com/Experiencia-Digital-104907572255725">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ExperienciaDig5">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/experiencia-digital-0b0479243/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://myaccount.google.com/u/1/">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/u19202758/_saved/">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/experienciadigital97/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

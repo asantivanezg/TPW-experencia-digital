@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="es-PE">
 
@@ -25,22 +28,22 @@
 				<nav>
 					<ul>
 						<li>
-							<a href="index.html">Inicio</a>
+							<a href="index.php">Inicio</a>
 						</li>
 						<li>
-							<a href="nosotros.html">Nosotros</a>
+							<a href="nosotros.php">Nosotros</a>
 						</li>
 						<li>
-							<a href="servicios.html">Servicios</a>
+							<a href="servicios.php">Servicios</a>
 						</li>
 						<li class="active">
-							<a href="equipo.html">Equipo</a>
+							<a href="equipo.php">Equipo</a>
 						</li>
 						<li >
-							<a href="login">Login</a>
+							<a href="/src/views/login/login.php">Login</a>
 						</li>
 						<li >
-							<a href="administrador.html">Intranet</a>
+							<a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
 						</li>
 					</ul>
 				</nav>
