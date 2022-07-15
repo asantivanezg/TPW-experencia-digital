@@ -12,7 +12,7 @@
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<link rel="stylesheet" href="styl">
+	<link rel="stylesheet" href="style/main.css">
 	<link rel="stylesheet" href="style/redes-sociales.css">
 	<script async>(function (w, d) {
 			var h = d.head || d.getElementsByTagName("head")[0];
@@ -305,7 +305,7 @@
 			<div class="cuerpo row">
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="images/trabajos/t1.jpg" alt="">
+						<img src="images/trabajos/t1.jpg"alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -316,7 +316,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="images/trabajos/t2.jpg" alt="">
+						<img src="images/trabajos/t2.jpg"alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -327,7 +327,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="images/trabajos/t3.jpg" alt="">
+						<img src="images/trabajos/t3.jpg"alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -338,7 +338,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="images/trabajos/t4.jpg" alt="">
+						<img src="images/trabajos/t4.jpg"alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -360,7 +360,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="images/trabajos/t6.jpg" alt="">
+						<img src="images/trabajos/t6.jpg"alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -371,7 +371,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="images/trabajos/t7.jpg" alt="">
+						<img src="images/trabajos/t7.jpg"alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -382,7 +382,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="images/trabajos/t8.jpg" alt="">
+						<img src="images/trabajos/t8.jpg"alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
