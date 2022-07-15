@@ -60,7 +60,7 @@
                             <a href="equipo.php">Equipo</a>
                         </li>
                         <li>
-                            <a href="SistemaLogin.html">Login</a>
+                            <a href="/src/views/intranet/login/intranet-login.php">Login</a>
                         </li>
                         <li>
                             <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>

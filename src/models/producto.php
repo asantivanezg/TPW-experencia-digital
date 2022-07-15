@@ -9,11 +9,13 @@ class Producto {
     public $nombre;
     public $precio;
     public $idCategoria;
+	private $productos;
 
-    public function __construct()
+    public function __CONSTRUCT()
     {
         try {
-            $this -> pdo = Database::conectar();
+			$this->productos=array();
+			$this->pdo = new PDO('mysql:host=localhost; dbname=bd_experiencia_digital','root',"admin"); //Database::Conectar();
         }
 		catch(Exception $e) {
 			die($e->getMessage());
@@ -26,10 +28,15 @@ class Producto {
 		{
 			$result = array();
 
-			$stm = $this->pdo->prepare("SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_categoria c ON p.idCategoria = c.id WHERE activo = 1");
-			$stm->execute();
+			//$stm = $this->pdo->prepare("SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_categoria c ON p.idCategoria = c.id WHERE activo = 1");
+			$sql="SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_categoria c ON p.idCategoria = c.id WHERE activo = 1";
 
-			return $stm->fetchAll(PDO::FETCH_OBJ);
+			foreach ($this->pdo->query($sql) as $res) {
+				$this->productos[]=$res;
+			}
+			return $this->productos;
+			//$stm->execute();
+//			return $stm->fetchAll(PDO::FETCH_OBJ);
 		}
 		catch(Exception $e)
 		{
