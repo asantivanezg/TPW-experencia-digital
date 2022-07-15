@@ -59,7 +59,7 @@
 			<div class="imagenes">
 				<article class="bloque active">
 					<div class="imagen">
-						<img src="media/images/home/homeimg.jpg" alt="portada">
+						<img src="images/home/homeimg.jpg" alt="portada">
 					</div>
 					<div class="texto">
 						<h2 class="text-center">
