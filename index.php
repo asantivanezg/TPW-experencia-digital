@@ -12,7 +12,7 @@
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="css/IMG/main">
 	<link rel="stylesheet" href="style/redes-sociales.css">
 	<script async>(function (w, d) {
 			var h = d.head || d.getElementsByTagName("head")[0];
@@ -454,21 +454,24 @@
 			<div class="container">
 				<div class="float-left">
 					<ul>
-						<li>
-							<a href="index.html">Home</a>
-						</li>
-						<li>
-							<a href="nosotros.html">Nosotros</a>
-						</li>
-						<li>
-							<a href="servicios.html">Servicios</a>
-						</li>
-						<li>
-							<a href="equipo.html">Equipo</a>
-						</li>
-						<li>
-							<a href="contactanos.html">Contactos</a>
-						</li>
+					<li>
+                        <a href="index.php">Inicio</a>
+                        </li>
+                        <li class="active">
+                            <a href="nosotros.php">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="servicios.php">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="equipo.php">Equipo</a>
+                        </li>
+                        <li>
+                            <a href="/src/views/login/login.php">Login</a>
+                        </li>
+                        <li>
+                            <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
+                        </li>
 					</ul>
 				</div>
 				<div class="float-right">

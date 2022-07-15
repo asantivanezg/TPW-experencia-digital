@@ -273,22 +273,28 @@
     <footer>
         <div id="footer-arriba">
             <div class="container">
-                <div class="float-left">
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
+            <div class="float-left">
+					<ul>
+                    <li>
+                            <a href="index.php">Inicio</a>
+                        </li>
+                        <li class="active">
+                            <a href="nosotros.php">Nosotros</a>
                         </li>
                         <li>
-                            <a href="#que-somos">Nosotros</a>
+                            <a href="servicios.php">Servicios</a>
                         </li>
                         <li>
-                            <a href="#servicios">Servicios</a>
+                            <a href="equipo.php">Equipo</a>
                         </li>
                         <li>
-                            <a href="#equipo.html">Equipo</a>
+                            <a href="/src/views/login/login.php">Login</a>
                         </li>
-                    </ul>
-                </div>
+                        <li>
+                            <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
+                        </li>
+					</ul>
+				</div>
                 <div class="float-right">
                     <ul class="redes-sociales">
                         <li>
