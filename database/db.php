@@ -3,6 +3,7 @@ class Database
 {
     public static function conectar()
     {
+        // Mi primer commit
         $usuario = "root";
         $password = "admin";
         $database = "bd_experiencia_Digital";
