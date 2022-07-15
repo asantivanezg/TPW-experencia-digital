@@ -176,7 +176,7 @@
 				<div class="cuerpo row">
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="images/que-somos/creatividad.jpg"alt="">
+							<img src="images/servicios/iconos/diseno-grafico.png"alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Diseño Gráfico</h3>
@@ -187,7 +187,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="images/que-somos/estrategia.jpg" alt="">
+							<img src="images/servicios/iconos/Ilustracion.png" alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Ilustración</h3>
@@ -198,7 +198,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="images/que-somos/estrategia.jpg" alt="">
+							<img src="images/servicios/iconos/editorial.png" alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Editorial</h3>
@@ -209,7 +209,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="media/images/servicios/iconos/diseno-web.png" alt="">
+							<img src="images/servicios/iconos/diseno-web.png" alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Diseño Web</h3>
@@ -240,7 +240,7 @@
 				<div class="cuerpo row">
 					<article class="bloque col-4">
 						<div class="imagen">
-							<img src="media/images/que-somos/creatividad.jpg" alt="">
+							<img src="images/que-somos/creatividad.jpg" alt="">
 						</div>
 
 						<div class="texto">
@@ -305,7 +305,7 @@
 			<div class="cuerpo row">
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="media/images/trabajos/t1.jpg" alt="">
+						<img src="images/trabajos/t1.jpg" alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -316,7 +316,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="media/images/trabajos/t2.jpg" alt="">
+						<img src="images/trabajos/t2.jpg" alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -327,7 +327,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="media/images/trabajos/t3.jpg" alt="">
+						<img src="images/trabajos/t3.jpg" alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -338,7 +338,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="media/images/trabajos/t4.jpg" alt="">
+						<img src="images/trabajos/t4.jpg" alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -349,7 +349,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="media/images/trabajos/t5.jpg" alt="">
+						<img src="images/trabajos/t5.jpg" alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -360,7 +360,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="media/images/trabajos/t6.jpg" alt="">
+						<img src="images/trabajos/t6.jpg" alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -371,7 +371,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="media/images/trabajos/t7.jpg" alt="">
+						<img src="images/trabajos/t7.jpg" alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -382,7 +382,7 @@
 				</article>
 				<article class="bloque col-3">
 					<div class="imagen">
-						<img src="media/images/trabajos/t8.jpg" alt="">
+						<img src="images/trabajos/t8.jpg" alt="">
 					</div>
 					<div class="texto">
 						<h3 class="text-center">Labore et dolore magnam</h3>
@@ -406,7 +406,7 @@
 				<div class="cuerpo row">
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="media/images/algunos-hechos/3200.png" alt="">
+							<img src="images/algunos-hechos/3200.png" alt="">
 						</div>
 						<div class="texto">
 							<h4 class="text-center">3200</h4>
@@ -415,7 +415,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="media/images/algunos-hechos/120.png" alt="">
+							<img src="images/algunos-hechos/120.png" alt="">
 						</div>
 						<div class="texto">
 							<h4 class="text-center">120</h4>
@@ -424,7 +424,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="media/images/algunos-hechos/360.png" alt="">
+							<img src="images/algunos-hechos/360.png" alt="">
 						</div>
 						<div class="texto">
 							<h4 class="text-center">360</h4>
@@ -433,7 +433,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="media/images/algunos-hechos/42.png" alt="">
+							<img src="images/algunos-hechos/42.png" alt="">
 						</div>
 						<div class="texto">
 							<h4 class="text-center">42</h4>
