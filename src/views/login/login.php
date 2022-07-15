@@ -69,7 +69,7 @@
             </div>
         </div>
     </div>
-    <script src="/js/script.js"></script>
+    <script src="/img/script.js"></script>
 </body>
 
 </html>
