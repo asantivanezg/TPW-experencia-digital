@@ -176,7 +176,7 @@
 				<div class="cuerpo row">
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="resource/" alt="">
+							<img src="images/que-somos/creatividad.jpg"alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Diseño Gráfico</h3>
@@ -187,7 +187,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="resource/" alt="">
+							<img src="images/que-somos/estrategia.jpg" alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Ilustración</h3>
@@ -198,7 +198,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="images/" alt="">
+							<img src="images/que-somos/estrategia.jpg" alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Editorial</h3>
@@ -257,7 +257,7 @@
 					</article>
 					<article class="bloque col-4">
 						<div class="imagen">
-							<img src="media/images/que-somos/estrategia.jpg" alt="">
+							<img src="images/que-somos/estrategia.jpg" alt="">
 						</div>
 
 						<div class="texto">
@@ -273,7 +273,7 @@
 					</article>
 					<article class="bloque col-4">
 						<div class="imagen">
-							<img src="media/images/que-somos/tecnologia.jpg" alt="">
+							<img src="images/que-somos/tecnologia.jpg" alt="">
 						</div>
 
 						<div class="texto">

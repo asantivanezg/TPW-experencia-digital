@@ -65,7 +65,7 @@
 					<article class="bloque col-4">
 						<div class="image-container">
 							<div class="imagen image-resize">
-								<img src="media/images/equipo/axel.jpg.png" alt="">
+								<img src="images/equipo/axel.jpg.png" alt="">
 							</div>
 						</div>
 
@@ -80,7 +80,7 @@
 
 					<article class="bloque col-4">
 						<div class="imagen">
-							<img src="media/images/equipo/peter.png" alt="">
+							<img src="images/equipo/peter.png" alt="">
 						</div>
 
 						<div class="texto">
@@ -93,7 +93,7 @@
 
 					<article class="bloque col-4">
 						<div class="imagen">
-							<img src="media/images/equipo/roberto.jpg" alt="">
+							<img src="images/equipo/roberto.jpg" alt="">
 						</div>
 
 						<div class="texto">
@@ -109,7 +109,7 @@
 				<div class="cuerpo row">
 					<article class="bloque col-4">
 						<div class="imagen">
-							<img src="media/images/que-somos/creatividad.jpg" alt="">
+							<img src="images/que-somos/creatividad.jpg" alt="">
 						</div>
 
 						<div class="texto">
@@ -123,7 +123,7 @@
 					
 					<article class="bloque col-4">
 						<div class="imagen">
-							<img src="media/images/equipo/leo.jpg.png" alt="">
+							<img src="images/equipo/leo.jpg.png" alt="">
 						</div>
 
 						<div class="texto">
@@ -136,7 +136,7 @@
 
 					<article class="bloque col-4">
 						<div class="imagen">
-							<img src="media/images/que-somos/creatividad.jpg" alt="">
+							<img src="images/que-somos/creatividad.jpg" alt="">
 						</div>
 
 						<div class="texto">
