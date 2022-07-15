@@ -187,7 +187,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="media/images/servicios/iconos/Ilustracion.png" alt="">
+							<img src="resource/" alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Ilustración</h3>
@@ -198,7 +198,7 @@
 					</article>
 					<article class="bloque col-3">
 						<div class="imagen text-center">
-							<img src="media/images/servicios/iconos/editorial.png" alt="">
+							<img src="images/" alt="">
 						</div>
 						<div class="texto">
 							<h3 class="text-center">Editorial</h3>
