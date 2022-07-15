@@ -159,7 +159,7 @@ header .container .float-left{
 
 }
 header .container .float-left a#logo{
-	background-image: url(images/logo-web-50x50px.png);
+	background-image: url(../images/logo-web-50x50px.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 	102px;
