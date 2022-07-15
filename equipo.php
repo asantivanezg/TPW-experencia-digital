@@ -28,24 +28,24 @@
 			<div class="float-right">
 				<nav>
 					<ul>
-						<li>
-							<a href="index.php">Inicio</a>
-						</li>
-						<li>
-							<a href="nosotros.php">Nosotros</a>
-						</li>
-						<li>
-							<a href="servicios.php">Servicios</a>
-						</li>
-						<li class="active">
-							<a href="equipo.php">Equipo</a>
-						</li>
-						<li >
-							<a href="/src/views/login/login.php">Login</a>
-						</li>
-						<li >
-							<a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
-						</li>
+					<li>
+                            <a href="index.php">Inicio</a>
+                        </li>
+                        <li class="active">
+                            <a href="nosotros.php">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="servicios.php">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="equipo.php">Equipo</a>
+                        </li>
+                        <li>
+                            <a href="SistemaLogin.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
+                        </li>
 					</ul>
 				</nav>
 			</div>
@@ -159,17 +159,23 @@
             <div class="container">
                 <div class="float-left">
                     <ul>
-						<li>
-                            <a href="index.html">Home</a>
+					<li>
+                            <a href="index.php">Inicio</a>
+                        </li>
+                        <li class="active">
+                            <a href="nosotros.php">Nosotros</a>
                         </li>
                         <li>
-                            <a href="#que-somos">Nosotros</a>
+                            <a href="servicios.php">Servicios</a>
                         </li>
                         <li>
-                            <a href="#servicios">Servicios</a>
+                            <a href="equipo.php">Equipo</a>
                         </li>
                         <li>
-                            <a href="#equipo.html">Equipo</a>
+                            <a href="SistemaLogin.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
                         </li>
                     </ul>
                 </div>

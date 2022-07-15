@@ -52,7 +52,7 @@
                             <a href="equipo.php">Equipo</a>
                         </li>
                         <li>
-                            <a href="/src/views/login/login.php">Login</a>
+                            <a href="SistemaLogin.html">Login</a>
                         </li>
                         <li>
                             <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
@@ -103,7 +103,7 @@
                 <div class="float-left">
                     <ul>
                     <li>
-                        <a href="index.php">Inicio</a>
+                            <a href="index.php">Inicio</a>
                         </li>
                         <li class="active">
                             <a href="nosotros.php">Nosotros</a>
@@ -115,7 +115,7 @@
                             <a href="equipo.php">Equipo</a>
                         </li>
                         <li>
-                            <a href="/src/views/login/login.php">Login</a>
+                            <a href="SistemaLogin.html">Login</a>
                         </li>
                         <li>
                             <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>

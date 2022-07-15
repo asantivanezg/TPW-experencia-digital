@@ -50,17 +50,17 @@
                         <li>
                             <a href="index.php">Inicio</a>
                         </li>
-                        <li >
+                        <li class="active">
                             <a href="nosotros.php">Nosotros</a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="servicios.php">Servicios</a>
                         </li>
                         <li>
                             <a href="equipo.php">Equipo</a>
                         </li>
                         <li>
-                            <a href="/src/views/login/login.php">Login</a>
+                            <a href="SistemaLogin.html">Login</a>
                         </li>
                         <li>
                             <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
@@ -289,7 +289,7 @@
                             <a href="equipo.php">Equipo</a>
                         </li>
                         <li>
-                            <a href="/src/views/login/login.php">Login</a>
+                            <a href="SistemaLogin.html">Login</a>
                         </li>
                         <li>
                             <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
