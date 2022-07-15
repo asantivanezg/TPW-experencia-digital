@@ -7,6 +7,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Experiencia Digital</title>
+	<link rel="icon" href="images/logo-web-50x50px.png">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"

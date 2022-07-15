@@ -10,6 +10,7 @@
 	<title>Experiencia Digital</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
+	<link rel="icon" href="images/logo-web-50x50px.png">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="style/main.css">
