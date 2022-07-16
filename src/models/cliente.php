@@ -1,20 +1,21 @@
 <?php
-class Producto {
+class Cliente {
 
     private $pdo;
 
-    public $idProducto;
-    public $descripcion;
-    public $stock;
+    public $idCliente;
     public $nombre;
-    public $precio;
-    public $idCategoria;
-	private $productos;
+    public $apellido;
+    public $direccion;
+    public $dni;
+    public $telefono;
+
+	private $clientes;
 
     public function __construct()
     {
         try {
-			$this->productos=array();
+			$this->clientes=array();
 			$this->pdo = new PDO('mysql:host=localhost; dbname=bd_experiencia_digital','root',"admin"); //Database::Conectar();
         }
 		catch(Exception $e) {
@@ -31,12 +32,12 @@ class Producto {
 			//$stm = $this->pdo->prepare("SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_categoria c ON p.idCategoria = c.id WHERE activo = 1");
 						//$stm->execute();
 //			return $stm->fetchAll(PDO::FETCH_OBJ);
-			$sql="SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_categoria c ON p.idCategoria = c.id WHERE activo = 1";
+			$sql="SELECT id, nombre, apellido, direccion, dni, telefono FROM tb_cliente WHERE estado = 1";
 
 			foreach ($this->pdo->query($sql) as $res) {
-				$this->productos[]=$res;
+				$this->clientes[]=$res;
 			}
-			return $this->productos;
+			return $this->clientes;
 
 		}
 		catch(Exception $e)
@@ -45,12 +46,12 @@ class Producto {
 		}
 	}
     
-    public function obtenerPorId($idProducto)
+    public function obtenerPorId($idCliente)
 	{
 		try
 		{
-			$stm = $this->pdo->prepare("SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_categoria c ON p.idCategoria = c.id WHERE activo = 1 AND p.id = 1");
-			$stm->execute(array($idProducto));
+			$stm = $this->pdo->prepare("SELECT p.id, p.nombre, p.descripcion, p.precio, p.stock, c.descripcion AS categoria FROM tb_producto p INNER JOIN tb_cliente c ON p.idCategoria = c.id WHERE estado = 1 AND p.id = 1");
+			$stm->execute(array($idCliente));
 			return $stm->fetch(PDO::FETCH_OBJ);
 		} catch (Exception $e)
 		{
@@ -58,15 +59,16 @@ class Producto {
 		}
 	}
 
-    public function eliminar($idProducto)
+    public function eliminar($idCliente)
 	{
 		try
 		{
-			$stm = $this->pdo ->prepare("UPDATE tb_producto SET
+			$stm = $this->pdo
+			            ->prepare("UPDATE tb_cliente SET
                         activo = 0                        
                         WHERE id = ?");
 
-			$stm->execute(array($idProducto));
+			$stm->execute(array($idCliente));
 		} catch (Exception $e)
 		{
 			die($e->getMessage());
@@ -77,22 +79,22 @@ class Producto {
 	{
 		try
 		{
-			$sql = "UPDATE tb_producto SET
+			$sql = "UPDATE tb_cliente SET
 						nombre = ?,
-						descripcion = ?,
-                        precio = ?
-                        stock = ?
-                        idCategoria = ?
+						apellido = ?,
+                        direccion = ?
+                        telefono = ?
+                        dni = ?
 				    WHERE id = ?";
 
 			$this->pdo->prepare($sql)
 			     ->execute(
 				    array(
                         $data->nombre,
-                        $data->descripcion,
-                        $data->precio,
-                        $data->stock,
-                        $data->idCategoria
+                        $data->apellido,
+                        $data->direccion,
+                        $data->telefono,
+                        $data->dni
 					)
 				);
 		} catch (Exception $e)
@@ -101,21 +103,21 @@ class Producto {
 		}
 	}
 
-	public function registrar(Producto $data)
+	public function registrar(Cliente $data)
 	{
 		try
 		{
-		$sql = "INSERT INTO tb_producto (nombre,descripcion,precio,stock,idCategoria,activo)
+		$sql = "INSERT INTO tb_cliente (nombre,apellido,direccion, telefono, dni,activo)
 		        VALUES (?, ?, ?, ?,?, 1)";
 
 		$this->pdo->prepare($sql)
 		     ->execute(
 				array(
                     $data->nombre,
-                    $data->descripcion,
-                    $data->precio,
-                    $data->stock,
-                    $data->idCategoria
+                    $data->apellido,
+                    $data->direccion,
+                    $data->telefono,
+                    $data->dni
                 )
 			);
 		} catch (Exception $e)

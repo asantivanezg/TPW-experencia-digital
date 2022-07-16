@@ -21,13 +21,13 @@ $nombre=$_SESSION['nombre'];
         <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="producto.php">Producto</a>
+        <a class="nav-link" href="#">Producto</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="categoria.php">Categoría</a>
+        <a class="nav-link" href="/src/controllers/categoria_controller.php">Categoría</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="cliente.php">Cliente</a>
+        <a class="nav-link" href="/src/controllers/cliente_controller.php">Cliente</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Usuario</a>
@@ -51,19 +51,24 @@ $nombre=$_SESSION['nombre'];
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-            <?php session_unset();
-            } ?>
+            <?php session_unset(); } ?>
 
             <!-- ADD TASK FORM -->
             <div class="card card-body">
-                <form action="save_task.php" method="POST">
+                <form action="/src/controllers/producto/guardar_producto.php" method="POST">
                     <div class="form-group">
-                        <input type="text" name="title" class="form-control" placeholder="Titulo producto" autofocus>
+                        <input type="text" name="nombre" class="form-control" placeholder="Nombre producto" autofocus>
                     </div>
                     <div class="form-group">
-                        <textarea name="description" rows="2" class="form-control" placeholder="Descripcion producto"></textarea>
+                        <input type="text" name="descripcion" class="form-control" placeholder="Descripcion">
                     </div>
-                    <input type="submit" name="save_task" class="btn btn-success btn-block" value="Guardar Producto">
+                    <div class="form-group">
+                        <input type="text" name="stock" class="form-control" placeholder="Precio">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="precio" class="form-control" placeholder="Stock">
+                    </div>
+                    <input type="submit" name="guardar_producto" class="btn btn-success btn-block" value="Guardar Producto">
                 </form>
             </div>
         </div>
@@ -74,6 +79,9 @@ $nombre=$_SESSION['nombre'];
                         <th>Id</th>
                         <th>Nombre</th>
                         <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Stock</th>
+                        <th>Categoria</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>
@@ -85,18 +93,19 @@ $nombre=$_SESSION['nombre'];
                         <td> <?php  echo $datos[$i]["id"]; ?> </td>
                         <td> <?php  echo $datos[$i]["nombre"]; ?> </td>
                         <td> <?php  echo $datos[$i]["descripcion"]; ?> </td>
+                        <td> <?php  echo "S/. ".number_format($datos[$i]["precio"],2,'.',','); ?> </td>
+                        <td> <?php  echo $datos[$i]["stock"]; ?> </td>
+                        <td> <?php  echo $datos[$i]["categoria"]; ?> </td>
                         <td>
                             <a href="edit.php?id=<?php echo $row['id'] ?>" class="btn btn-secondary">
                                 <i class="fas fa-marker"></i>
                             </a>
-                            <a href="delete_task.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">
+                            <a href="/src/controllers/producto/eliminar_producto.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">
                                 <i class="far fa-trash-alt"></i>
                             </a>
                         </td>
                     </tr>
-                    <?php
-                  }
-                  ?>
+                    <?php } ?>
                 </tbody>
             </table>
         </div>

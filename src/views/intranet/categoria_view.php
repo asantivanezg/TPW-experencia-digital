@@ -18,14 +18,14 @@ $nombre=$_SESSION['nombre'];
 
         <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item ">
-        <a class="nav-link" href="producto.php">Producto</a>
+    <li class="nav-item ">
+        <a class="nav-link" href="/src/controllers/producto_controller.php">Producto</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="categoria.php">Categoría</a>
+        <a class="nav-link" href="#">Categoría</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="cliente.php">Cliente</a>
+        <a class="nav-link" href="/src/controllers/cliente_controller.php">Cliente</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Usuario</a>
@@ -54,14 +54,11 @@ $nombre=$_SESSION['nombre'];
 
             <!-- ADD TASK FORM -->
             <div class="card card-body">
-                <form action="save_task.php" method="POST">
+                <form action="/src/controllers/categoria/guardar_categoria.php" method="POST">
                     <div class="form-group">
-                        <input type="text" name="title" class="form-control" placeholder="Titulo producto" autofocus>
+                        <input type="text" name="descripcion" class="form-control" placeholder="Descripcion" autofocus>
                     </div>
-                    <div class="form-group">
-                        <textarea name="description" rows="2" class="form-control" placeholder="Descripcion producto"></textarea>
-                    </div>
-                    <input type="submit" name="save_task" class="btn btn-success btn-block" value="Guardar Producto">
+                    <input type="submit" name="guardar_categoria" class="btn btn-success btn-block" value="Guardar categoria">
                 </form>
             </div>
         </div>
@@ -69,17 +66,18 @@ $nombre=$_SESSION['nombre'];
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>Titulo</th>
+                        <th>id</th>
                         <th>Descripción</th>
-                        <th>Creado</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                  for($i=0;  $i<count($datos); $i++) {                  
+                  ?>
                     <tr>
-                        <td> titulo ejemplo </td>
-                        <td> descripción ejemplo</td>
-                        <td> creado</td>
+                        <td> <?php  echo $datos[$i]["id"]; ?> </td>
+                        <td> <?php  echo $datos[$i]["descripcion"]; ?></td>
                         <td>
                             <a href="edit.php?id=<?php echo $row['id'] ?>" class="btn btn-secondary">
                                 <i class="fas fa-marker"></i>
@@ -89,7 +87,7 @@ $nombre=$_SESSION['nombre'];
                             </a>
                         </td>
                     </tr>
-
+                    <?php } ?>
                 </tbody>
             </table>
         </div>
