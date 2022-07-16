@@ -86,7 +86,7 @@
                                     <div class="row">
                                         <div class="col-sm-12 col-lg-4">
                                             <div class="card" style="width:250px; margin: auto;">
-                                                <img src="img/img1.png" alt="" class="card-img-top">
+                                                <img src="img/accesorio 1.png" alt="" class="card-img-top">
                                                 <div class="card-body">
                                                     <h5 class="card-title">ACCESORIOS PARA ESTUDIOS</h5>
                                                     <p class="card-text">Desde S/65.00</p>
@@ -97,7 +97,7 @@
 
                                         <div class="col-sm-12 col-lg-4">
                                             <div class="card" style="width:250px; margin: auto;">
-                                                <img src="img/img1.png" alt="" class="card-img-top">
+                                                <img src="img/accesorio 2.png" alt="" class="card-img-top">
                                                 <div class="card-body">
                                                     <h5 class="card-title">ACCESORIOS PARA OFICINAS</h5>
                                                     <p class="card-text">Desde S/55.00</p>
@@ -108,7 +108,7 @@
 
                                         <div class="col-sm-12 col-lg-4">
                                             <div class="card" style="width:250px; margin: auto;">
-                                                <img src="img/img1.png" alt="" class="card-img-top">
+                                                <img src="img/accesorio 3.png" alt="" class="card-img-top">
                                                 <div class="card-body">
                                                     <h5 class="card-title">ACCESORIOS PARA DISEÑOS</h5>
                                                     <p class="card-text">Desde S/55.00</p>
@@ -146,7 +146,7 @@
                                     <div class="row">
                                         <div class="col-sm-12 col-lg-4">
                                             <div class="card" style="width:250px; margin: auto;">
-                                                <img src="img/img1.png" alt="" class="card-img-top">
+                                                <img src="img/diseño 1.png" alt="" class="card-img-top">
                                                 <div class="card-body">
                                                     <h5 class="card-title">Diseño Web</h5>
                                                     <p class="card-text">Desde S/65.00</p>
@@ -157,7 +157,7 @@
 
                                         <div class="col-sm-12 col-lg-4" >
                                             <div class="card" style="width:250px; margin: auto;">
-                                                <img src="img/img1.png" alt="" class="card-img-top">
+                                                <img src="img/diseño 2.png" alt="" class="card-img-top">
                                                 <div class="card-body">
                                                     <h5 class="card-title" >Actualizacion Software</h5>
                                                     <p class="card-text"  text=" center">Desde S/55.00</p>
@@ -169,7 +169,7 @@
 
                                         <div class="col-sm-12 col-lg-4">
                                             <div class="card" style="width:250px; margin: auto;">
-                                                <img src="img/img1.png" alt="" class="card-img-top">
+                                                <img src="img/diseño 3.png" alt="" class="card-img-top">
                                                 <div class="card-body">
                                                     <h5 class="card-title">DISEÑO DE ALBUMS</h5>
                                                     <p class="card-text">Desde S/55.00</p>
@@ -202,7 +202,7 @@
 
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                     <main class="">
-                        <img src="img/img1.png" alt="">
+                        <img src="img/venta 1.png" alt="">
                         <div class="cont-main border overflow-hidden p-2" id="menu" onClick="cambiarClase()">
                             <h5 class="text-primary text-center">MEMORIAS RAM<br> 2022</h5>
                             <p class="card-text">Desde S/65.00</p>
@@ -219,7 +219,7 @@
 
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                     <main class="">
-                        <img src="img/img1.png" alt="">
+                        <img src="img/venta 2.png" alt="">
                         <div class="cont-main border overflow-hidden p-2" onClick="cambiarClase2()">
                             <h5 class="text-primary text-center">DISCOS SSD <br> 2022</h5>
                             <p class="card-text">Desde S/150.00</p>
@@ -236,7 +236,7 @@
 
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                     <main class="">
-                        <img src="img/img1.png" alt="">
+                        <img src="img/venta 3.png" alt="">
                         <div class="cont-main border overflow-hidden p-2" onClick="cambiarClase3()">
                             <h5 class="text-primary text-center">PROCESADORES<br>2022.</h5>
                             <p class="card-text">Desde S/120.00</p>
@@ -253,7 +253,7 @@
 
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                     <main class="">
-                        <img src="img/img1.png" alt="">
+                        <img src="img/venta 4.png" alt="">
                         <div class="cont-main border overflow-hidden p-2" onClick="cambiarClase4()">
                             <h5 class="text-primary text-center">TARJETAS GRAFICAS<br> 2022</h5>
                             <p class="card-text">Desde S/350.00</p>
