@@ -5,7 +5,7 @@
 
 session_start();
 if(!isset($_SESSION['id'])){
-    header("Location: /index.php");
+    header("Location: /src/views/intranet/login/intranet-login.php");
 }
 
 $nombre=$_SESSION['nombre'];
@@ -33,7 +33,7 @@ $nombre=$_SESSION['nombre'];
         <a class="nav-link" href="#">Usuario</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login/cerrar.php">Cerrar sesión</a>
+        <a class="nav-link" href="/src/views/intranet/login/cerrar.php">Cerrar sesión</a>
       </li>
     </ul>
   </div>

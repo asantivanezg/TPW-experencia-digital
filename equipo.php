@@ -41,10 +41,10 @@
                             <a href="equipo.php">Equipo</a>
                         </li>
                         <li>
-                            <a href="/src/views/intranet/login/intranet-login.php">Login</a>
+                            <a href="#">Login</a>
                         </li>
                         <li>
-                            <a href="/src/views/intranet/intranet.php" target="_blank">Intranet</a>
+                            <a href="/src/controllers/producto_controller.php" target="_blank">Intranet</a>
                         </li>
 					</ul>
 				</nav>
