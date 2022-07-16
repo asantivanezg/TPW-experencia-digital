@@ -1,3 +1,6 @@
+<?php 
+// require_once '../../../../database/main_db.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,9 +15,3 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.php">Experiencia Digital Intranet</a>
-        </div>
-    </nav>
